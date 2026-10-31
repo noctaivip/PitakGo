@@ -1,0 +1,1 @@
+v0.45: Fix driver pitak picker by invoking real picker directly from button (hidden-input click failed on Android). Driver requires specific stand. Prevent duplicate driver_pitaks inserts and show saved stands as individual cards. Link saved home pitak only if absent.

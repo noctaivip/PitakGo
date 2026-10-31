@@ -1,0 +1,1 @@
+v0.44: driver vehicle persisted and shown in Profile; edit existing vehicle; driver pitak selectors use same full-screen picker as passenger search; status buttons single row. Existing Supabase/RPC preserved.

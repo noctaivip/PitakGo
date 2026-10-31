@@ -1,0 +1,1 @@
+v0.37: Android native datalist removed; inline bounded autocomplete in normal page flow; stale auth error cleared after login. No database changes. Preserve android folder on update.

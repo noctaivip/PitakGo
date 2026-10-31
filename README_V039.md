@@ -1,0 +1,1 @@
+v0.39: city/region > city/district > all stands/specific stand picker for guest and signed-in searches. Matches actual trip pitaks by selected geography. Swipe-protected options. No DB changes. Preserve android folder.

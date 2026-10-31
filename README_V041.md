@@ -1,0 +1,1 @@
+v0.41: first-login welcome once per user and honest early-access card on zero matching trips, with request CTA. No prize promotion or unverified promises. Fixed zero matching results display. Existing services and backend unchanged.

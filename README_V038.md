@@ -1,0 +1,1 @@
+v0.38: Hierarchical location autocomplete (region > district > pitak, or city > pitak), 25 scrollable geography options, tap-only selection via click, no pointerdown. Other app flows unchanged.

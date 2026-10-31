@@ -1,0 +1,3046 @@
+{
+  "dataset_version": "0.12.0",
+  "collected_on": "2026-10-28",
+  "country": "Uzbekistan",
+  "purpose": "National research leads for intercity taxi stands; not all records are map-ready. Coordinates are only populated when source-backed.",
+  "records": [
+    {
+      "lead_id": "LEAD-TAS-VODIY-KUYLYUK",
+      "name": "Водий пятак / Vodiy pitak",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "informal_intercity_taxi_stand",
+      "routes": [
+        "Фергана",
+        "Маргилан",
+        "Коканд",
+        "Наманган",
+        "Андижан"
+      ],
+      "location_text": "Toyona ko‘chasi 12, Qo‘yliq/Kuylyuk bozori yonidagi Vodiy Pitak; Yandex Maps pin",
+      "latitude": 41.243757,
+      "longitude": 69.339582,
+      "evidence_level": "explicit_public_mention",
+      "status": "map_pin_published_needs_on_site_confirmation",
+      "source_urls": [
+        "https://t.me/s/potrebitel_uz?after=4392",
+        "https://t.me/s/potrebitel_uz?before=9177",
+        "https://yandex.com/maps/10335/tashkent/house/YkAYdQRpTE0FQFprfX51cntmYg%3D%3D/"
+      ],
+      "evidence_note": "Публичная Telegram-лента прямо называет Куйлюк и Водий пятак местами отправления в Фергану. Координаты не указаны. Yandex Maps identifies Kuylik, Vodiy Pitak at Toyona street 12 and publishes coordinates 41.243757, 69.339582; exact active pickup area still needs on-site confirmation."
+    },
+    {
+      "lead_id": "LEAD-TAS-NORTHERN-STATION",
+      "name": "Пятак у Северного вокзала",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "informal_intercity_taxi_stand",
+      "routes": [
+        "Ферганская долина"
+      ],
+      "location_text": "район Северного вокзала; конкретная сторона/выход не установлены",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_public_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://t.me/s/potrebitel_uz?after=4392"
+      ],
+      "evidence_note": "Публичная публикация указывает как место отправления в Фергану; точный пин отсутствует."
+    },
+    {
+      "lead_id": "LEAD-TAS-YANGIYUL-PITAK",
+      "name": "Янгийульский пятак у Южного вокзала",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "informal_intercity_taxi_stand",
+      "routes": [
+        "Дустабад / Солдатский",
+        "Янгийулское направление"
+      ],
+      "location_text": "возле Южного вокзала, на остановку дальше в сторону Сергели",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_public_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://t.me/s/potrebitel_uz/10648?q=%23%D0%A2%D0%B0%D1%88%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C"
+      ],
+      "evidence_note": "Публичная публикация называет пятак и относительный ориентир; без точного GPS-пина."
+    },
+    {
+      "lead_id": "LEAD-TAS-KUYLYUK-BEKOBOD",
+      "name": "Пятак Бекобод на Куйлюке",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "informal_intercity_taxi_stand",
+      "routes": [
+        "Бекобод",
+        "погранпост Ойбек"
+      ],
+      "location_text": "Куйлюк; точный участок не установлен",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_public_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://t.me/s/potrebitel_uz/11183?q=%23%D0%B4%D0%B0%D0%B9%D0%B4%D0%B6%D0%B5%D1%81%D1%82%D1%8B"
+      ],
+      "evidence_note": "Публичный дайджест прямо называет «с Куйлюка пятак Бекобод» для поездки к посту Ойбек."
+    },
+    {
+      "lead_id": "LEAD-TAS-KADYSHEVA-STOP",
+      "name": "Стоянки такси у остановок на Кадышева",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "informal_taxi_pickup_cluster",
+      "routes": [
+        "городские/пригородные направления не установлены"
+      ],
+      "location_text": "район Кадышева; в публикации описана проблема такси у остановок, не конкретный межгородский пятак",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_mention_not_confirmed_intercity",
+      "status": "exclude_from_map_until_verified",
+      "source_urls": [
+        "https://t.me/s/potrebitel_uz/10036?q=%23%D1%82%D0%B0%D0%BA%D1%81%D0%B8"
+      ],
+      "evidence_note": "Не считать подтверждённым междугородним пятаком: источник обсуждает такси, блокирующие автобусные остановки."
+    },
+    {
+      "lead_id": "LEAD-SAM-ULUGBEK-STATION",
+      "name": "Стоянка у обсерватории Улугбека",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "reported_intercity_taxi_stand",
+      "routes": [
+        "Ташкент",
+        "Бухара",
+        "Навои"
+      ],
+      "location_text": "район обсерватории Улугбека; точная точка посадки не установлена",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "secondary_public_travel_report",
+      "status": "needs_independent_confirmation_and_pin",
+      "source_urls": [
+        "https://uzbekistanwanderer.com/"
+      ],
+      "evidence_note": "Вторичный travel-источник как зацепка; не использовать как подтверждённую точку до проверки."
+    },
+    {
+      "lead_id": "LEAD-SAM-REGISTAN-SHAKHRISABZ",
+      "name": "Точка такси в районе Регистана",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "reported_intercity_taxi_stand",
+      "routes": [
+        "Шахрисабз"
+      ],
+      "location_text": "район Регистана; точное место и актуальность не установлены",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "secondary_public_travel_report",
+      "status": "needs_independent_confirmation_and_pin",
+      "source_urls": [
+        "https://uzbekistanwanderer.com/"
+      ],
+      "evidence_note": "Вторичный источник сообщает о стоянке для направления Шахрисабз; точный пин не найден."
+    },
+    {
+      "lead_id": "LEAD-BUX-NORTH-STATION",
+      "name": "Северная автостанция / стоянка такси",
+      "city": "Бухара",
+      "region": "Бухарская область",
+      "type": "reported_intercity_taxi_stand",
+      "routes": [
+        "Самарканд",
+        "Ташкент"
+      ],
+      "location_text": "северная автостанция Бухары; требуется проверить, используют ли именно таксисты как пятак",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "secondary_public_travel_report",
+      "status": "needs_independent_confirmation_and_pin",
+      "source_urls": [
+        "https://uzbekistanwanderer.com/"
+      ],
+      "evidence_note": "Вторичный источник; не считать точной точкой без независимого подтверждения."
+    },
+    {
+      "lead_id": "LEAD-URGENCH-STADIUM",
+      "name": "Стоянка такси у стадиона",
+      "city": "Ургенч",
+      "region": "Хорезмская область",
+      "type": "reported_intercity_taxi_stand",
+      "routes": [
+        "Нукус"
+      ],
+      "location_text": "район стадиона; название стадиона/точка не установлены",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "secondary_public_travel_report",
+      "status": "needs_independent_confirmation_and_pin",
+      "source_urls": [
+        "https://uzbekistanwanderer.com/"
+      ],
+      "evidence_note": "Вторичный источник; требуется определить конкретный стадион и актуальную точку."
+    },
+    {
+      "lead_id": "LEAD-BUX-KARVONBAZAR-HIVA",
+      "name": "Пятак возле Карванбазара",
+      "city": "Бухара",
+      "region": "Бухарская область",
+      "type": "informal_intercity_taxi_stand",
+      "routes": [
+        "Хива",
+        "Ургенч"
+      ],
+      "location_text": "возле Карванбазара; точный вход/сторона не установлены",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_public_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://t.me/s/potrebitel_uz?before=11200",
+        "https://t.me/s/potrebitel_uz?before=11280"
+      ],
+      "evidence_note": "Публичный Telegram-дайджест прямо упоминает частные такси Бухара—Хива с пятака возле Карванбазара."
+    },
+    {
+      "lead_id": "LEAD-KAS-MIRAKI-HISSARAK",
+      "name": "Пятак внедорожников у дамбы Хисарак",
+      "city": "Мираки",
+      "region": "Кашкадарьинская область",
+      "type": "special_route_taxi_stand",
+      "routes": [
+        "горы в районе Хисаракской дамбы"
+      ],
+      "location_text": "район дамбы Хисарак; конкретный GPS-пин не опубликован",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_public_mention",
+      "status": "needs_exact_pin_and_current_confirmation",
+      "source_urls": [
+        "https://t.me/s/potrebitel_uz/6052?q=%23%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F"
+      ],
+      "evidence_note": "Публичный Telegram-пост указывает, что местные таксисты на Нивах собираются в районе дамбы Хисарак; это специализированный горный трансфер, не общий межгород."
+    },
+    {
+      "lead_id": "LEAD-AND-VODIY-TOSHKENT-PITAK",
+      "name": "Vodiy Toshkent Pitak (название канала)",
+      "city": "Андижан / Ташкент",
+      "region": "Ферганская долина / Ташкент",
+      "type": "route_group_lead_not_physical_location",
+      "routes": [
+        "Андижан—Ташкент"
+      ],
+      "location_text": "публикация подтверждает название канала, не точное физическое место стоянки",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_telegram_channel_mention",
+      "status": "source_for_further_mining_not_map_pin",
+      "source_urls": [
+        "https://t.me/s/ANDIJON_AliExpress?before=98",
+        "https://t.me/vodiytashkent"
+      ],
+      "evidence_note": "В открытом Telegram-посте 2019 года упомянут канал «VODIY TOSHKENT PITAK» для направления Андижан—Ташкент. Старое свидетельство; актуальность и точка посадки не подтверждены."
+    },
+    {
+      "lead_id": "LEAD-TAS-TOYONA-FERGANA",
+      "name": "Tashkent–Fergana–Tashkent taxi rank (Toyona 12)",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "mapped_intercity_taxi_rank",
+      "routes": [
+        "Фергана / Ферганская долина"
+      ],
+      "location_text": "Ташкент, улица Тойона, 12; адрес карточки Yandex Maps",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "map_listing_with_address_and_route_name",
+      "status": "address_known_coordinates_and_current_operation_to_verify",
+      "source_urls": [
+        "https://yandex.com/maps/org/tashkent_fergana_tashkent/24188318621/"
+      ],
+      "evidence_note": "Карточка Yandex Maps названа Tashkent–Fergana–Tashkent, категория Taxi rank, адрес Toyona street 12, часы 24/7, телефон указан на странице. Это сильная кандидатура для межгорода; координаты не скопированы из геокодера, требуют точного извлечения/проверки."
+    },
+    {
+      "lead_id": "LEAD-TAS-KHOREZM-BESHQURGHON",
+      "name": "Tashkent–Khorezm taxi rank (Beshqurghon mahalla)",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "mapped_intercity_taxi_rank",
+      "routes": [
+        "Хорезм / Ургенч (по названию карточки; маршрут следует подтвердить)"
+      ],
+      "location_text": "Чиланзарский район, махалля Бешкурган; точный въезд/сторона не указаны",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "map_listing_with_route_name_and_address",
+      "status": "needs_exact_pin_and_route_confirmation",
+      "source_urls": [
+        "https://yandex.com/maps/org/tashkent_khorezm/168900507037/",
+        "https://yandex.com/maps/105813/tashkent-province/category/taxi_rank/20699378251/"
+      ],
+      "evidence_note": "Yandex Maps карточка Tashkent–Khorezm помечена Taxi rank и работает 24 часа; адрес указан на уровне махалли. Не использовать как точный пин до проверки места посадки."
+    },
+    {
+      "lead_id": "LEAD-ANGREN-HAMKOR-TAXI",
+      "name": "Angren Hamkor Taxi",
+      "city": "Ангрен",
+      "region": "Ташкентская область",
+      "type": "mapped_taxi_rank_operator",
+      "routes": [],
+      "location_text": "Ангрен, улица Бунёдкор, 57",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "map_listing_with_address_contact_and_reviews",
+      "status": "needs_intercity_route_confirmation",
+      "source_urls": [
+        "https://yandex.com/maps/org/angren_hamkor_taxi/158274612604/"
+      ],
+      "evidence_note": "Yandex Maps классифицирует объект как Taxi rank/Taxi, адрес и телефон опубликованы, часы 24/7; отзывы есть. Пока не доказано, что это именно междугородний пятак, поэтому маршрут не приписан."
+    },
+    {
+      "lead_id": "LEAD-SAM-NEW-CHUPAN-ATA",
+      "name": "Новая Самаркандская автостанция / зона shared taxi",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "official_terminal_with_shared_taxi_area",
+      "routes": [
+        "Ташкентская область",
+        "Джизакская область",
+        "Бухарская область",
+        "Навоийская область",
+        "Хорезмская область",
+        "Кашкадарьинская область",
+        "Сурхандарьинская область — по данным страницы станции, для автобусов/транзита; такси-маршруты отдельно не подтверждены"
+      ],
+      "location_text": "13 Chupon-Ota, Самарканд; холм Чупон-Ата",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "city_transport_page_explicit_shared_taxi_waiting_area",
+      "status": "terminal_confirmed_shared_taxi_area_reported_exact_pin_to_add",
+      "source_urls": [
+        "https://sam.uz/en/transport/samarqand-avtovokzali"
+      ],
+      "evidence_note": "Городская транспортная страница сообщает, что новая станция открылась в августе 2025 года и у shared intercity taxis есть отдельная зона ожидания. Адрес 13 Chupon-Ota. Не путать автобусные маршруты с подтверждёнными маршрутами такси."
+    },
+    {
+      "lead_id": "LEAD-BUX-SHARQ-AIRPORT",
+      "name": "Sharq taxi stand near Bukhara airport",
+      "city": "Бухара",
+      "region": "Бухарская область",
+      "type": "reported_intercity_taxi_stand",
+      "routes": [
+        "Шахрисабз",
+        "Карши",
+        "Термез — по опубликованному путевому справочнику; проверить актуальность"
+      ],
+      "location_text": "район аэропорта Бухары; точный участок и GPS не указаны",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "secondary_travel_guide_explicit_stand_and_directions",
+      "status": "needs_independent_confirmation_and_exact_pin",
+      "source_urls": [
+        "https://uzbekistanwanderer.com/shared-taxis-uzbekistan/"
+      ],
+      "evidence_note": "Открытый путевой справочник прямо называет Sharq stand near the airport и направления. Требуется независимое подтверждение актуальности и точного места."
+    },
+    {
+      "lead_id": "LEAD-MAR-77-PITAK",
+      "name": "77 Pitak",
+      "city": "Маргилан",
+      "region": "Ферганская область",
+      "type": "directory_candidate",
+      "routes": [],
+      "location_text": "Маргилан; в каталоге стоянок указан short code CPX28J6",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_map_pin_and_intercity_confirmation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Внешний каталог относит объект к taxi stand; короткий код не является проверенными координатами, направление и текущая работа не подтверждены."
+    },
+    {
+      "lead_id": "LEAD-SAM-PAYARYK-TAXI",
+      "name": "Taksi Payaryk",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "directory_candidate",
+      "routes": [
+        "Паярык"
+      ],
+      "location_text": "Dakhbed Yuli Street; каталог указывает short code MX99FX2",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_map_pin_and_intercity_confirmation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Каталог такси-стоянок; нужно подтвердить, что это именно междугородний пятак и установить точный pin."
+    },
+    {
+      "lead_id": "LEAD-SAM-SHAKHRISABZ-STATION",
+      "name": "Shakhrisabz Station",
+      "city": "Самарканд / Шахрисабз",
+      "region": "Самаркандская область",
+      "type": "directory_candidate",
+      "routes": [
+        "Шахрисабз"
+      ],
+      "location_text": "В каталоге taxi stands указано название Shakhrisabz Station и short code MX3H62R; городская привязка требует проверки",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_city_and_pin_verification",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Название и короткий код взяты из каталога, географическая привязка может быть неточной."
+    },
+    {
+      "lead_id": "LEAD-MAR-QORAJIYDA-BEKATI",
+      "name": "Qorajiyda Bekati",
+      "city": "Маргилан",
+      "region": "Ферганская область",
+      "type": "directory_candidate",
+      "routes": [],
+      "location_text": "Маргилан; short code FMQ2CMW в каталоге стоянок",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_map_pin_and_intercity_confirmation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Название остановки/стоянки в стороннем каталоге; межгородский характер не доказан."
+    },
+    {
+      "lead_id": "LEAD-MAR-SOLIJONOBOD-BEKATI",
+      "name": "Solijonobod Bekati",
+      "city": "Маргилан",
+      "region": "Ферганская область",
+      "type": "directory_candidate",
+      "routes": [],
+      "location_text": "Маргилан; short code GJPVPF8 в каталоге стоянок",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_map_pin_and_intercity_confirmation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Нужна проверка на карте и подтверждение междугородних отправлений."
+    },
+    {
+      "lead_id": "LEAD-TURAKURGON-OKTOSH",
+      "name": "Oktosh Avtobusnaya Ostanovka",
+      "city": "Туракурган",
+      "region": "Наманганская область",
+      "type": "directory_candidate",
+      "routes": [],
+      "location_text": "В каталоге taxi stands указано название остановки в Туракургане; short code XGX3MC",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_intercity_confirmation_and_pin",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Может быть обычной остановкой; не показывать как пятак до подтверждения."
+    },
+    {
+      "lead_id": "LEAD-TURAKURGON-TOSHKENT-PETAK",
+      "name": "Toshkent Petak",
+      "city": "Туракурган",
+      "region": "Наманганская область",
+      "type": "informal_intercity_taxi_stand_candidate",
+      "routes": [
+        "Ташкент"
+      ],
+      "location_text": "R-120, short code 2G23W8X в стороннем каталоге",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_map_pin_and_current_confirmation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Название прямо содержит Petak и направление Ташкент, но код не является подтверждёнными координатами."
+    },
+    {
+      "lead_id": "LEAD-TURAKURGON-BEKOBOD",
+      "name": "Bekobod Stoyanka",
+      "city": "Туракурган",
+      "region": "Наманганская область",
+      "type": "directory_candidate",
+      "routes": [
+        "Бекобод"
+      ],
+      "location_text": "Short code 2G25CCM в стороннем каталоге; точная география не проверена",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_map_pin_and_route_confirmation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Название стоянки и код требуют независимой проверки."
+    },
+    {
+      "lead_id": "LEAD-TURAKURGON-AKHSI",
+      "name": "Stoyanka Akhsi",
+      "city": "Туракурган",
+      "region": "Наманганская область",
+      "type": "directory_candidate",
+      "routes": [
+        "Ахси"
+      ],
+      "location_text": "R-120a; short code 2G25QVC в стороннем каталоге",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_map_pin_and_intercity_confirmation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Возможна местная/пригородная стоянка, междугородний статус не подтверждён."
+    },
+    {
+      "lead_id": "LEAD-TURAKURGON-CHUST-STOP",
+      "name": "Chust Avtobusnaya Ostanovka",
+      "city": "Туракурган / Чуст",
+      "region": "Наманганская область",
+      "type": "directory_candidate",
+      "routes": [
+        "Чуст"
+      ],
+      "location_text": "Short code 2G22H5V; запись каталога с географией, требующей проверки",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_city_and_intercity_confirmation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Возможна ошибка города в каталоге; не считать подтверждённым пятаком."
+    },
+    {
+      "lead_id": "LEAD-KARSHI-CHIROQCHI-STOYANKA",
+      "name": "Chiroqchi Stoyanka",
+      "city": "Карши / Чирокчи",
+      "region": "Кашкадарьинская область",
+      "type": "directory_candidate",
+      "routes": [
+        "Чирокчи"
+      ],
+      "location_text": "Short code 65V8HQ5; каталог относит запись к Ташкенту, что выглядит как ошибка географии",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_geographic_reconciliation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Сохранена как исследовательская зацепка, не как подтверждённая точка."
+    },
+    {
+      "lead_id": "LEAD-KARSHI-TAXI-001",
+      "name": "Стоянка Такси 001",
+      "city": "Карши",
+      "region": "Кашкадарьинская область",
+      "type": "directory_candidate",
+      "routes": [],
+      "location_text": "Mustaqillik Avenue; short code RQQW5W2",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_map_pin_and_intercity_confirmation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Каталог указывает стоянку, но не сообщает направления и не доказывает междугороднее назначение."
+    },
+    {
+      "lead_id": "LEAD-KUNGRAD-INTERCITY-TAXI",
+      "name": "Mezhdugorodnaya Avtostoyanka Taksi",
+      "city": "Кунград",
+      "region": "Республика Каракалпакстан",
+      "type": "informal_intercity_taxi_stand_candidate",
+      "routes": [],
+      "location_text": "Short code 2RRRV9P в каталоге стоянок; точный адрес не приведён",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_exact_pin_and_route_confirmation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Название прямо указывает на междугороднюю стоянку; координаты и реальные направления требуют проверки."
+    },
+    {
+      "lead_id": "LEAD-URGENCH-MEZHGOR-TAXI",
+      "name": "Stoyanka Mezhgortaksistov",
+      "city": "Ургенч",
+      "region": "Хорезмская область",
+      "type": "informal_intercity_taxi_stand_candidate",
+      "routes": [],
+      "location_text": "Abulgazi Bakhodirkhan Street; short code HJ4W8PH",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_only",
+      "status": "needs_exact_pin_and_route_confirmation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Каталог указывает межгородскую стоянку в Ургенче; направления и точные координаты нужно подтвердить."
+    },
+    {
+      "lead_id": "LEAD-SAM-KAFTARXONA-PANJAKENT",
+      "name": "Кафтaрхона — стоянка такси к границе Джартепа",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "international_intercity_taxi_stand_candidate",
+      "routes": [
+        "Джартепа",
+        "Пенджикент, Таджикистан"
+      ],
+      "location_text": "Восточная часть Самарканда; стоянка Кафтaрхона",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "travel_guide_explicit",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://samarkand-guide.com/services/transport",
+        "https://uzbekistanwanderer.com/uzbekistan-to-tajikistan/"
+      ],
+      "evidence_note": "Путеводитель прямо сообщает, что такси и маршрутки к погранпереходу Джартепа отправляются с Кафтaрхона; GPS-пин нужно извлечь и сверить."
+    },
+    {
+      "lead_id": "LEAD-TAS-KUYLYUK-OYBEK",
+      "name": "Куйлюк — такси к погранпереходу Ойбек",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "international_intercity_taxi_stand_candidate",
+      "routes": [
+        "Ойбек",
+        "Худжанд, Таджикистан"
+      ],
+      "location_text": "Район базара Куйлюк; вдоль дороги рядом с базаром",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "travel_guide_explicit",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://uzbekistanwanderer.com/uzbekistan-to-tajikistan/",
+        "https://note.com/playful_sheph/n/n6f74b67b0378?hl=en"
+      ],
+      "evidence_note": "Публикации описывают shared taxis от района Куйлюка к Ойбеку; конкретный ряд машин/место посадки надо уточнить."
+    },
+    {
+      "lead_id": "LEAD-OYBEK-UZB-BORDER-TAXIS",
+      "name": "Стоянка такси на узбекской стороне Ойбека",
+      "city": "Ойбек",
+      "region": "Ташкентская область",
+      "type": "international_border_taxi_stand_candidate",
+      "routes": [
+        "Худжанд, Таджикистан"
+      ],
+      "location_text": "Узбекская сторона погранперехода Ойбек; у поста и немного дальше на главной дороге",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "border_guide_explicit",
+      "status": "needs_exact_pin_and_current_status",
+      "source_urls": [
+        "https://uzbekistanwanderer.com/uzbekistan-to-tajikistan/",
+        "https://caravanistan.com/border-crossings/uzbekistan/"
+      ],
+      "evidence_note": "Пограничные путеводители описывают ожидающие такси на узбекской стороне; необходимо установить точную точку и проверить текущую схему."
+    },
+    {
+      "lead_id": "LEAD-BEKOBOD-QUSHTEGIRMON-BORDER",
+      "name": "Бекобод — такси к переходу Куштегирмон",
+      "city": "Бекобод",
+      "region": "Ташкентская область",
+      "type": "international_border_taxi_stand_candidate",
+      "routes": [
+        "Куштегирмон, Таджикистан"
+      ],
+      "location_text": "Бекобод; точка отправления внутри города не установлена",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "border_guide_explicit",
+      "status": "needs_local_departure_pin",
+      "source_urls": [
+        "https://en.wikivoyage.org/wiki/Uzbekistan",
+        "https://uzbekistanwanderer.com/uzbekistan-to-tajikistan/"
+      ],
+      "evidence_note": "Источники указывают такси/маршрутки к границе, но не подтверждают отдельный пятак и его адрес в Бекободе."
+    },
+    {
+      "lead_id": "LEAD-KUNGRAD-DAUT-OTA-BORDER",
+      "name": "Кунград — такси к Дауыт-Ота / Бейнеу",
+      "city": "Кунград",
+      "region": "Республика Каракалпакстан",
+      "type": "international_border_taxi_stand_candidate",
+      "routes": [
+        "Дауыт-Ота",
+        "Бейнеу, Казахстан"
+      ],
+      "location_text": "Кунград и район погранперехода; действующий пассажирский статус требует перепроверки",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "border_guide_historical",
+      "status": "exclude_until_current_border_and_route_confirmation",
+      "source_urls": [
+        "https://caravanistan.com/border-crossings/uzbekistan/"
+      ],
+      "evidence_note": "В источнике есть историческое упоминание shared taxis между Кунградом и Бейнеу, но более свежий источник сообщает об ограничении пассажирского движения. Не показывать как действующий маршрут без официальной проверки."
+    },
+    {
+      "lead_id": "LEAD-TAS-OLMAZOR-WEST",
+      "name": "Ташкент: стоянка у автовокзала «Олмазор»",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "informal_intercity_taxi_stand",
+      "routes": [
+        "Самарканд",
+        "Джизак",
+        "Навои",
+        "Бухара и западные направления"
+      ],
+      "location_text": "у центрального автовокзала возле метро Олмазор; отдельная стоянка такси рядом с терминалом",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_travel_guide_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://caravanistan.com/uzbekistan/center/tashkent/transport/"
+      ],
+      "evidence_note": "Путеводитель разделяет такси в Ферганскую долину и такси к другим дальним направлениям у центрального автовокзала; конкретный пин не опубликован."
+    },
+    {
+      "lead_id": "LEAD-SAM-KAFTARXONA-JARTEPA",
+      "name": "Самарканд: Кафтaрхона — международное направление",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "intercity_international_taxi_stand",
+      "routes": [
+        "Джартепа",
+        "Пенджикент",
+        "Фанские горы",
+        "Душанбе"
+      ],
+      "location_text": "автостанция Кафтaрхона, восточная часть Самарканда; точный вход/пятак не установлен",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_travel_guide_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://uzbekistanwanderer.com/uzbekistan-to-tajikistan/",
+        "https://caravanistan.com/border-crossings/uzbekistan/"
+      ],
+      "evidence_note": "Открытые путеводители указывают, что shared taxis к границе Джартепа отправляются с Кафтaрхоны."
+    },
+    {
+      "lead_id": "LEAD-SAM-REGISTAN-KAFTARXONA-CONNECT",
+      "name": "Самарканд: Registon bekati — пересадка на Кафтaрхону",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "taxi_transfer_point",
+      "routes": [
+        "Кафтaрхона",
+        "Джартепа",
+        "Пенджикент"
+      ],
+      "location_text": "остановка Registon bekati; далее местное такси/маршрутка до Кафтaрхоны",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_travel_guide_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://caravanistan.com/border-crossings/uzbekistan/"
+      ],
+      "evidence_note": "Источник описывает маршрут от центрального Самарканда через Registon bekati к Kaftarxona; это пересадочная точка, не подтверждённый самостоятельный межгородской пятак."
+    },
+    {
+      "lead_id": "LEAD-TAS-OYBEK-TRANSFER",
+      "name": "Ташкент: Куйлюк — направление Ойбек/Худжанд",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "intercity_international_taxi_stand",
+      "routes": [
+        "Ойбек",
+        "Бустон",
+        "Худжанд"
+      ],
+      "location_text": "район базара Куйлюк; далее такси/автобус к КПП Ойбек",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_travel_guide_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://caravanistan.com/border-crossings/tajikistan/",
+        "https://uzbekistanwanderer.com/uzbekistan-to-tajikistan/"
+      ],
+      "evidence_note": "Путеводители указывают Куйлюк как точку старта наземного маршрута к Ойбеку; точная посадка на международный рейс не подтверждена."
+    },
+    {
+      "lead_id": "LEAD-OYBEK-UZ-SIDE",
+      "name": "Ойбек: стоянка такси на узбекской стороне КПП",
+      "city": "Ойбек",
+      "region": "Ташкентская область",
+      "type": "border_shared_taxi_stand",
+      "routes": [
+        "Бустон",
+        "Худжанд"
+      ],
+      "location_text": "узбекская сторона КПП Ойбек; конкретная площадка не установлена",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_travel_guide_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://caravanistan.com/border-crossings/uzbekistan/",
+        "https://uzbekistanwanderer.com/uzbekistan-to-tajikistan/"
+      ],
+      "evidence_note": "Публичные путеводители сообщают, что такси ожидают пассажиров на узбекской стороне границы."
+    },
+    {
+      "lead_id": "LEAD-BESHARIQ-PATAR",
+      "name": "Бешарык/Патар: трансграничная пересадка",
+      "city": "Бешарык",
+      "region": "Ферганская область",
+      "type": "border_shared_taxi_stand",
+      "routes": [
+        "Конибодом",
+        "Худжанд",
+        "Коканд"
+      ],
+      "location_text": "район КПП Патар/Бешарык; точка стоянки с узбекской стороны не установлена",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_travel_guide_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://caravanistan.com/border-crossings/uzbekistan/",
+        "https://caravanistan.com/border-crossings/tajikistan/"
+      ],
+      "evidence_note": "Источники описывают такси и маршрутки между Бешарыком, Конибодомом и Худжандом; место посадки требует локальной проверки."
+    },
+    {
+      "lead_id": "LEAD-DENAU-SARIOSiyo",
+      "name": "Денау: такси к Сариосиё/Турсунзаде",
+      "city": "Денау",
+      "region": "Сурхандарьинская область",
+      "type": "intercity_international_taxi_stand",
+      "routes": [
+        "Сариосиё",
+        "Турсунзаде",
+        "Душанбе"
+      ],
+      "location_text": "город Денау, стоянка для маршрута к КПП; точный адрес не найден",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_travel_guide_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://caravanistan.com/border-crossings/uzbekistan/",
+        "https://caravanistan.com/border-crossings/tajikistan/"
+      ],
+      "evidence_note": "Источник подтверждает наличие shared taxi по направлению к границе Денау—Турсунзаде, но не конкретный городской пятак."
+    },
+    {
+      "lead_id": "LEAD-TERMEZ-GULBAHOR",
+      "name": "Термез: такси/маршрутки к Гулбахору",
+      "city": "Термез",
+      "region": "Сурхандарьинская область",
+      "type": "intercity_international_taxi_stand",
+      "routes": [
+        "Гулбахор",
+        "Шахртус"
+      ],
+      "location_text": "отправление из Термеза к КПП Гулбахор; точная стоянка не установлена",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_travel_guide_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://caravanistan.com/border-crossings/tajikistan/"
+      ],
+      "evidence_note": "Путеводитель указывает на маршрутки/такси между Термезом и Гулбахором; точный пятак в Термезе не назван."
+    },
+    {
+      "lead_id": "LEAD-BUKHARA-ALAT-FARAP",
+      "name": "Бухара: такси к Алат/Фарап",
+      "city": "Бухара",
+      "region": "Бухарская область",
+      "type": "intercity_international_taxi_stand",
+      "routes": [
+        "Алат",
+        "Фарап",
+        "Туркменабат"
+      ],
+      "location_text": "из Бухары к КПП Фарап—Алат; конкретная точка отправления не опубликована",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_travel_guide_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://caravanistan.com/border-crossings/uzbekistan/"
+      ],
+      "evidence_note": "Путеводитель описывает такси и маршрутки до КПП Фарап—Алат, но не подтверждает конкретную городскую стоянку."
+    },
+    {
+      "lead_id": "LEAD-KHIVA-SHAVAT",
+      "name": "Хива/Ургенч: такси к Шават—Дашогуз",
+      "city": "Хива/Ургенч",
+      "region": "Хорезмская область",
+      "type": "intercity_international_taxi_stand",
+      "routes": [
+        "Шават",
+        "Дашогуз"
+      ],
+      "location_text": "отправление к КПП Шават—Дашогуз; точный пин не найден",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_travel_guide_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://caravanistan.com/border-crossings/uzbekistan/"
+      ],
+      "evidence_note": "Источник указывает связь погранперехода с Хивой и Ургенчем, но не устанавливает отдельную точку посадки."
+    },
+    {
+      "lead_id": "LEAD-NUKUS-HOJAYLI",
+      "name": "Нукус/Ходжейли: такси к КПП Ходжейли",
+      "city": "Нукус/Ходжейли",
+      "region": "Республика Каракалпакстан",
+      "type": "intercity_international_taxi_stand",
+      "routes": [
+        "Ходжейли",
+        "Куня-Ургенч"
+      ],
+      "location_text": "местные shared taxis к КПП Ходжейли; конкретная стоянка не названа",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_travel_guide_mention",
+      "status": "needs_exact_pin",
+      "source_urls": [
+        "https://caravanistan.com/border-crossings/uzbekistan/"
+      ],
+      "evidence_note": "Путеводитель подтверждает shared taxis между Нукусом, КПП и направлением Куня-Ургенч; городской пятак не определён."
+    },
+    {
+      "lead_id": "LEAD-KUNGRAD-BEYNEU",
+      "name": "Кунград: междугородняя стоянка такси",
+      "city": "Кунград",
+      "region": "Республика Каракалпакстан",
+      "type": "intercity_taxi_stand",
+      "routes": [
+        "Бейнеу / Казахстан — только после подтверждения актуального режима"
+      ],
+      "location_text": "вторичный справочник указывает «Mezhdugorodnaya Avtostoyanka Taksi», плюс-код 2RRRV9P",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_candidate",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Справочник даёт название и Plus Code 2RRRV9P, но не подтверждает точную координату, активность и допустимость пассажирского пересечения границы."
+    },
+    {
+      "lead_id": "LEAD-MARGILAN-77-PITAK",
+      "name": "Маргилан: 77 Pitak",
+      "city": "Маргилан",
+      "region": "Ферганская область",
+      "type": "intercity_taxi_stand",
+      "routes": [
+        "не установлены"
+      ],
+      "location_text": "справочник стоянок, Plus Code CPX28J6 (городская привязка источника требует перепроверки)",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_candidate",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Вторичный каталог перечисляет «77 Pitak» как стоянку; местоположение и направление требуют независимого подтверждения."
+    },
+    {
+      "lead_id": "LEAD-MARGILAN-QORAJIYDA",
+      "name": "Маргилан: Qorajiyda Bekati",
+      "city": "Маргилан",
+      "region": "Ферганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "не установлены"
+      ],
+      "location_text": "справочник стоянок, Plus Code FMQ2CMW",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_candidate",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Каталожная зацепка; не подтверждено, что это именно междугородний пятак такси."
+    },
+    {
+      "lead_id": "LEAD-MARGILAN-SOLIJONOBOD",
+      "name": "Маргилан: Solijonobod Bekati",
+      "city": "Маргилан",
+      "region": "Ферганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "не установлены"
+      ],
+      "location_text": "справочник стоянок, Plus Code GJPVPF8",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_candidate",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Каталожная зацепка; требуется проверить тип транспорта и фактическую работу."
+    },
+    {
+      "lead_id": "LEAD-QARSHI-MUSTAQILLIK",
+      "name": "Карши: Стоянка такси 001",
+      "city": "Карши",
+      "region": "Кашкадарьинская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "не установлены"
+      ],
+      "location_text": "район проспекта Мустакиллик; Plus Code RQQW5W2",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_candidate",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Справочник указывает стоянку такси, но не подтверждает междугородние маршруты."
+    },
+    {
+      "lead_id": "LEAD-QARSHI-MARSHRUTKI8",
+      "name": "Карши: Avtostoyanka Marshrutki 8",
+      "city": "Карши",
+      "region": "Кашкадарьинская область",
+      "type": "transport_stand_candidate",
+      "routes": [
+        "не установлены"
+      ],
+      "location_text": "Plus Code VRC435H",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_candidate",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Каталожная зацепка для маршруток; пока не считать пятаком междугороднего такси."
+    },
+    {
+      "lead_id": "LEAD-URGENCH-MEZHGOROD",
+      "name": "Ургенч: стоянка междугородних таксистов",
+      "city": "Ургенч",
+      "region": "Хорезмская область",
+      "type": "intercity_taxi_stand",
+      "routes": [
+        "не установлены"
+      ],
+      "location_text": "улица Абулгази Баходирхана; Plus Code HJ4W8PH",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_candidate",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Название прямо указывает на междугороднюю стоянку, но координату по Plus Code и активность нужно перепроверить."
+    },
+    {
+      "lead_id": "LEAD-SAM-PAYARYK",
+      "name": "Самарканд: Taksi Payaryk",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Паярык — требует подтверждения"
+      ],
+      "location_text": "улица Дахбед Йули; Plus Code MX99FX2",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_candidate",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Справочник перечисляет такси Payaryk; требуется проверить, что это фиксированная точка отправления межгородних машин."
+    },
+    {
+      "lead_id": "LEAD-TURAKURGAN-TOSHKENT-PETAK",
+      "name": "Туракурган: Toshkent Petak",
+      "city": "Туракурган",
+      "region": "Наманганская область",
+      "type": "intercity_taxi_stand",
+      "routes": [
+        "Ташкент — по названию, требует подтверждения"
+      ],
+      "location_text": "R-120; Plus Code 2G23W8X",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_candidate",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Каталог указывает «Toshkent Petak»; географическая точность справочника низкая, необходима проверка на карте и на месте."
+    },
+    {
+      "lead_id": "LEAD-TURAKURGAN-AKHSI",
+      "name": "Туракурган: Stoyanka Akhsi",
+      "city": "Туракурган",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "не установлены"
+      ],
+      "location_text": "R-120a; Plus Code 2G25QVC",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_candidate",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Вторичный каталог; междугороднее назначение не подтверждено."
+    },
+    {
+      "lead_id": "LEAD-TURAKURGAN-BEKOBOD",
+      "name": "Туракурган: Bekobod Stoyanka",
+      "city": "Туракурган",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Бекобод — по названию, требует подтверждения"
+      ],
+      "location_text": "Plus Code 2G25CCM",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_candidate",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Taxi-stand"
+      ],
+      "evidence_note": "Название/городская привязка из каталога могут быть ошибочными; не показывать на карте без геокодирования."
+    },
+    {
+      "lead_id": "LEAD-NUKUS-KONYEQALA",
+      "name": "Нукус: Konye Qala / Gone Kala Bus Stand",
+      "city": "Нукус",
+      "region": "Республика Каракалпакстан",
+      "type": "bus_stand_candidate",
+      "routes": [
+        "не установлены"
+      ],
+      "location_text": "справочник транспорта, Plus Code FH6QW87",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "directory_listing_candidate",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://www.fastbase.com/countryindex/Uzbekistan/T/Transportation-service"
+      ],
+      "evidence_note": "Справочник указывает автобусную стоянку; не подтверждено, что там отправляются междугородние такси."
+    },
+    {
+      "lead_id": "LEAD-NAM-ANDIJAN-PITAK",
+      "name": "Андижанский пятак в Намангане",
+      "city": "Наманган",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Андижан"
+      ],
+      "location_text": "Boburshoh koʻchasi",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_transport_directory_listing",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://uzbekistan-streets.openalfa.com/namangan/transport"
+      ],
+      "evidence_note": "В каталоге транспорта района Янгий Наманган перечислен как Bus Station «Андижан питак» на улице Boburshoh. Название прямо указывает на межгородское направление, но точный вход/координаты не опубликованы."
+    },
+    {
+      "lead_id": "LEAD-NAM-NANAY-PITAK",
+      "name": "Нанайский пятак",
+      "city": "Наманган",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Нанай"
+      ],
+      "location_text": "улица Беруни",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_transport_directory_listing",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://uzbekistan-streets.openalfa.com/namangan/transport"
+      ],
+      "evidence_note": "Каталог транспорта перечисляет «Нанай питак» на улице Беруни. Координаты и фактическая активность требуют проверки на карте/на месте."
+    },
+    {
+      "lead_id": "LEAD-NAM-NURABAD-PITAK",
+      "name": "Нурабадский пятак",
+      "city": "Наманган",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Нурабад"
+      ],
+      "location_text": "Ququmboy shoh ko‘chasi",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_transport_directory_listing",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://uzbekistan-streets.openalfa.com/namangan/transport"
+      ],
+      "evidence_note": "Каталог транспорта перечисляет «Нурабад питак» на Ququmboy shoh ko‘chasi; GPS-точка не дана."
+    },
+    {
+      "lead_id": "LEAD-NAM-UYCHI-PITAK",
+      "name": "Уйчинский пятак",
+      "city": "Наманган",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Уйчи"
+      ],
+      "location_text": "Uychi ko‘chasi",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_transport_directory_listing",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://uzbekistan-streets.openalfa.com/namangan/transport"
+      ],
+      "evidence_note": "Каталог транспорта перечисляет «Уйчи питак» на Uychi ko‘chasi. Требуется проверка, что это именно действующая междугородняя стоянка."
+    },
+    {
+      "lead_id": "LEAD-NAM-UCHKORGON-PITAK",
+      "name": "Учкурганский пятак",
+      "city": "Наманган",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Учкурган"
+      ],
+      "location_text": "Uychi ko‘chasi",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_transport_directory_listing",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://uzbekistan-streets.openalfa.com/namangan/transport"
+      ],
+      "evidence_note": "Каталог транспорта перечисляет «Учкоргон питак» на Uychi ko‘chasi. Улица указана источником; координаты не опубликованы."
+    },
+    {
+      "lead_id": "LEAD-NAM-HAKKULABAD-PITAK",
+      "name": "Хаккулободский пятак такси",
+      "city": "Наманган",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Хаккулобод"
+      ],
+      "location_text": "точный адрес не указан",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_transport_directory_listing",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://uzbekistan-streets.openalfa.com/namangan/transport"
+      ],
+      "evidence_note": "Каталог транспорта перечисляет «Хаккулобод пятак такси» без адреса. Нужна геолокация по отдельному картографическому источнику."
+    },
+    {
+      "lead_id": "LEAD-NAM-YANGIKURGAN-PITAK",
+      "name": "Янгикурганский пятак",
+      "city": "Наманган",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Янгикурган"
+      ],
+      "location_text": "Uychi ko‘chasi",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_transport_directory_listing",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://uzbekistan-streets.openalfa.com/namangan/transport"
+      ],
+      "evidence_note": "Каталог транспорта перечисляет «Янгикургон питак» на Uychi ko‘chasi; точные координаты отсутствуют."
+    },
+    {
+      "lead_id": "LEAD-NAM-FARGONA-MARGILON-PITAK",
+      "name": "Фергана—Маргилан: новый пятак",
+      "city": "Наманган",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Фергана",
+        "Маргилан"
+      ],
+      "location_text": "Нодира кўчаси",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_transport_directory_listing",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://uzbekistan-streets.openalfa.com/namangan/transport"
+      ],
+      "evidence_note": "Каталог транспорта перечисляет «Fargona margilon yangi pitak» на улице Nodira; направление явно обозначено, но активность и точка требуют проверки."
+    },
+    {
+      "lead_id": "LEAD-NAM-JOMASHUY-TASHBULAQ",
+      "name": "Жомашуй—Ташбулак пятак",
+      "city": "Наманганская область",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Жомашуй",
+        "Ташбулак"
+      ],
+      "location_text": "точный адрес не указан",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_transport_directory_listing",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://uzbekistan-streets.openalfa.com/namangan/transport"
+      ],
+      "evidence_note": "Каталог транспорта перечисляет «Jomashuy, Tashbulaq pitak» без точного адреса и координат."
+    },
+    {
+      "lead_id": "LEAD-NAM-KOSONSOY-PATCH",
+      "name": "Косонсойский пятак",
+      "city": "Наманган",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Косонсой"
+      ],
+      "location_text": "Ququmboy shoh ko‘chasi",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_transport_directory_listing",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://uzbekistan-streets.openalfa.com/namangan/transport"
+      ],
+      "evidence_note": "Каталог транспорта перечисляет «Kosonsoy patch» на Ququmboy shoh ko‘chasi. Требуется проверка местоположения и текущей работы."
+    },
+    {
+      "lead_id": "LEAD-NAM-XORAZM-ISUZU-PITAK",
+      "name": "XORAZM ISUZU PITAK",
+      "city": "Наманган",
+      "region": "Наманганская область",
+      "type": "taxi_stand_candidate",
+      "routes": [
+        "Хорезм — по названию, проверить"
+      ],
+      "location_text": "Kosonsoy ko‘chasi; тел. +998 93 757 51 51",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_transport_directory_listing",
+      "status": "needs_map_validation",
+      "source_urls": [
+        "https://uzbekistan-streets.openalfa.com/namangan/transport"
+      ],
+      "evidence_note": "Каталог указывает название, улицу и публичный телефон. Географическое назначение неоднозначно; не трактовать как подтверждённый маршрут в Хорезм без дополнительного источника."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-AND-UZUMZOR",
+      "name": "Узумзор автостанция",
+      "city": "Андижан",
+      "region": "Андижанская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Узумзор / Andijon"
+      ],
+      "location_text": "Узбекистанская улица, 281",
+      "latitude": 40.78296,
+      "longitude": 72.281548,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-AND-GAVS",
+      "name": "GAVS автостанция",
+      "city": "Андижан",
+      "region": "Андижанская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Асака / юг области"
+      ],
+      "location_text": "Андижан—Асака, дом 1",
+      "latitude": 40.736332,
+      "longitude": 72.319989,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-AND-QUSHARIQ",
+      "name": "Кушарык автостанция",
+      "city": "Андижан",
+      "region": "Андижанская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "локальные/пригородные маршруты — проверить"
+      ],
+      "location_text": "массив Кушарык, 32-А",
+      "latitude": 40.814987,
+      "longitude": 72.331607,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-AND-JAHON",
+      "name": "Жахон автостанция",
+      "city": "Андижан",
+      "region": "Андижанская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "северо-восток области — проверить"
+      ],
+      "location_text": "улица Бутакара, 1",
+      "latitude": 40.828556,
+      "longitude": 72.358113,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-AND-SHAHRIKHON",
+      "name": "Шахрихан автостанция",
+      "city": "Шахрихан",
+      "region": "Андижанская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Шахрихан и соседние направления"
+      ],
+      "location_text": "Шох-кочаси, 46",
+      "latitude": 40.712341,
+      "longitude": 72.054651,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-NAM-DOSTLIK",
+      "name": "Дустлик автостанция",
+      "city": "Наманган",
+      "region": "Наманганская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Наманган / пригородные направления"
+      ],
+      "location_text": "улица 8 Марта, 6",
+      "latitude": 41.004284,
+      "longitude": 71.647255,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-NAM-CHUST",
+      "name": "Чуст автостанция",
+      "city": "Чуст",
+      "region": "Наманганская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Чуст и направления области"
+      ],
+      "location_text": "махалля Пансада, улица Чустий, 34",
+      "latitude": 40.99262,
+      "longitude": 71.228903,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-NAM-POP",
+      "name": "Поп автостанция",
+      "city": "Поп",
+      "region": "Наманганская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Поп / перевал Камчик — проверить"
+      ],
+      "location_text": "улица Назар-Али Ниёзова",
+      "latitude": 40.871042,
+      "longitude": 71.081308,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-NAM-MINGBULAK",
+      "name": "Мингбулак автостанция",
+      "city": "Жомашуй",
+      "region": "Наманганская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Жомашуй / Мингбулак"
+      ],
+      "location_text": "улица Озодлик, 110",
+      "latitude": 40.852472,
+      "longitude": 71.465037,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-SAM-KATTAQORGON",
+      "name": "Каттакурган автостанция",
+      "city": "Каттакурган",
+      "region": "Самаркандская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Каттакурган и пригородные направления"
+      ],
+      "location_text": "улица Навои, 1",
+      "latitude": 39.544752,
+      "longitude": 66.150199,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-SAM-PAYSHA-NBA",
+      "name": "Пайшанба автостанция",
+      "city": "Пайшанба",
+      "region": "Самаркандская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Пайшанба / Каттакурганский район"
+      ],
+      "location_text": "улица Навои",
+      "latitude": 40.003802,
+      "longitude": 66.134938,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-SAM-SIYOB",
+      "name": "Сиёб автостанция",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "проверить междугороднюю посадку, не путать с туристическим рынком"
+      ],
+      "location_text": "махалля Кафтарахона, улица Панджакент",
+      "latitude": 39.38372,
+      "longitude": 66.595903,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-BUH-GIJDUVAN",
+      "name": "Гиждуван автостанция",
+      "city": "Гиждуван",
+      "region": "Бухарская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Гиждуван / Бухара"
+      ],
+      "location_text": "улица Ю. Хамадани, 118",
+      "latitude": 40.095639,
+      "longitude": 64.682755,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-BUH-KOGON",
+      "name": "Каган автостанция",
+      "city": "Каган",
+      "region": "Бухарская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Каган / Бухара"
+      ],
+      "location_text": "Бухарское шоссе",
+      "latitude": 39.724135,
+      "longitude": 64.547734,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-BUH-KARAKUL",
+      "name": "Каракуль автостанция",
+      "city": "Каракуль",
+      "region": "Бухарская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Каракуль / Алат — проверить"
+      ],
+      "location_text": "улица Бухара, 121",
+      "latitude": 39.505003,
+      "longitude": 63.843941,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-NAV-ZARAFSHAN",
+      "name": "Зарафшан автостанция",
+      "city": "Зарафшан",
+      "region": "Навоийская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Зарафшан / Навои"
+      ],
+      "location_text": "1-й микрорайон",
+      "latitude": 41.341489,
+      "longitude": 64.112723,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-NAV-NURATA",
+      "name": "Нурата автостанция",
+      "city": "Нурата",
+      "region": "Навоийская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Нурата / Навои"
+      ],
+      "location_text": "улица Х. Худойкулова",
+      "latitude": 40.341315,
+      "longitude": 65.420673,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-QASH-BESH-KENT",
+      "name": "Бешкент автостанция",
+      "city": "Бешкент",
+      "region": "Кашкадарьинская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Бешкент / Карши"
+      ],
+      "location_text": "улица Хамза, 3",
+      "latitude": 38.49179,
+      "longitude": 65.3853,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-QASH-DEHQONOBOD",
+      "name": "Дехканабад автостанция",
+      "city": "Дехканабад",
+      "region": "Кашкадарьинская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Дехканабад и южные направления"
+      ],
+      "location_text": "улица Навои",
+      "latitude": 38.20574,
+      "longitude": 66.29294,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-QASH-SHAHRISABZ",
+      "name": "Шахрисабз автостанция",
+      "city": "Шахрисабз",
+      "region": "Кашкадарьинская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Шахрисабз / Китаб"
+      ],
+      "location_text": "Кушчинор, кишлак Чоштепа",
+      "latitude": 39.01038,
+      "longitude": 66.48148,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-QASH-KARSHI",
+      "name": "Карши автостанция (новая)",
+      "city": "Карши",
+      "region": "Кашкадарьинская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Карши / Шахрисабз"
+      ],
+      "location_text": "Отчопар, дорога Карши—Шахрисабз, 1/1",
+      "latitude": 38.5142,
+      "longitude": 65.51303,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-SUR-ANGOR",
+      "name": "Ангор автостанция",
+      "city": "Ангор",
+      "region": "Сурхандарьинская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Ангор / Термез"
+      ],
+      "location_text": "махалля Янги Турмуш, массив Истиклол",
+      "latitude": 37.444733,
+      "longitude": 67.154495,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-SUR-TERMEZ",
+      "name": "Термез автостанция",
+      "city": "Термез",
+      "region": "Сурхандарьинская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Термез / область"
+      ],
+      "location_text": "массив Фаровон, 2-й квартал",
+      "latitude": 37.248768,
+      "longitude": 67.3102,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-SUR-BOYSUN",
+      "name": "Бойсун автостанция",
+      "city": "Бойсун",
+      "region": "Сурхандарьинская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Бойсун / Денау — проверить"
+      ],
+      "location_text": "махалля Газа",
+      "latitude": 38.184213,
+      "longitude": 67.210772,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-SYR-GULISTAN",
+      "name": "Гулистан автостанция",
+      "city": "Гулистан",
+      "region": "Сырдарьинская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Гулистан / Сырдарья"
+      ],
+      "location_text": "улица Ташкент, 97",
+      "latitude": 40.498235,
+      "longitude": 68.762356,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-SYR-YANGIYER",
+      "name": "Янгиер автостанция",
+      "city": "Янгиер",
+      "region": "Сырдарьинская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Янгиер / Сырдарья"
+      ],
+      "location_text": "проспект Амира Темура, 4",
+      "latitude": 40.269941,
+      "longitude": 68.829241,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-FER-QUVA",
+      "name": "Кува автостанция",
+      "city": "Кува",
+      "region": "Ферганская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "Кува / Фергана"
+      ],
+      "location_text": "улица А. Яссави",
+      "latitude": 40.524681,
+      "longitude": 72.066516,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-STATION-FER-AUTOLUX",
+      "name": "Авто Люкс Фергана автостанция",
+      "city": "Фергана",
+      "region": "Ферганская область",
+      "type": "official_avtostation_candidate_for_taxi_pitak_check",
+      "routes": [
+        "городские и междугородние направления — проверить"
+      ],
+      "location_text": "пересечение улиц Додхох и П. Махмуд",
+      "latitude": 40.388794,
+      "longitude": 71.79115,
+      "evidence_level": "official_ministry_station_register",
+      "status": "official_station_pin_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://mintrans.uz/uz/avtovokzal-va-avtostantsiyalar-boyicha-malumot"
+      ],
+      "evidence_note": "Координаты и адрес опубликованы в реестре Министерства транспорта для автостанции. Это подтверждает положение автостанции, но не доказывает, что здесь есть отдельный действующий пятак междугороднего такси; необходима проверка на месте/по свежим картам."
+    },
+    {
+      "lead_id": "LEAD-TAS-INTERCITY-TAXI-CHILONZOR",
+      "name": "Intercity Taxi / междугородняя стоянка такси",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "map_listed_intercity_taxi_stand",
+      "routes": [
+        "междугородние направления — установить на месте"
+      ],
+      "location_text": "Plus Code 754R+PXH, Ташкент; каталог бизнесов помечает объект как Taxi stand, Chilonzor district",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "map_business_listing_taxi_stand",
+      "status": "candidate_exact_pin_and_routes_need_verification",
+      "source_urls": [
+        "https://www.google.com/maps/search/?api=1&query=Intercity+Taxi+Tashkent+754R%2BPXH"
+      ],
+      "evidence_note": "Структурированный поиск бизнесов показывает объект с названием Intercity Taxi, категорией Taxi stand и Plus Code 754R+PXH. Координаты не рассчитаны из Plus Code; точный пин и действующие направления требуют независимой проверки."
+    },
+    {
+      "lead_id": "LEAD-TAS-JIZZAKH-TAKSILARI",
+      "name": "Жиззах таксилари / Jizzakh taksilari",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "map_listed_intercity_taxi_hub_candidate",
+      "routes": [
+        "Жиззах",
+        "Самарканд — проверить актуальность"
+      ],
+      "location_text": "Район обувной фабрики №2, Ташкент; бизнес-каталог содержит отзывы о поездках в Жиззах и Самарканд",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "map_business_listing_and_review_snippet",
+      "status": "candidate_exact_pin_and_active_use_need_verification",
+      "source_urls": [
+        "https://www.google.com/maps/search/?api=1&query=Jizzakh+taksilari+Tashkent+shoe+factory+2"
+      ],
+      "evidence_note": "В бизнес-поиске есть объект «Жиззах таксилари»; сниппет описания указывает на межгородские поездки в Жиззах и Самарканд. Адресная привязка приблизительная, точные координаты и текущая работа не подтверждены."
+    },
+    {
+      "lead_id": "LEAD-TAS-PYATAK-TAKSI",
+      "name": "Pyatak Taksi / Пятак такси",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "map_listed_taxi_stand_candidate",
+      "routes": [
+        "не установлены"
+      ],
+      "location_text": "Plus Code 765F+W6, Ташкент; карта классифицирует как Taxi stand",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "map_business_listing_taxi_stand",
+      "status": "candidate_exact_pin_routes_and_active_use_need_verification",
+      "source_urls": [
+        "https://www.google.com/maps/search/?api=1&query=Pyatak+Taksi+Tashkent+765F%2BW6"
+      ],
+      "evidence_note": "Публичный бизнес-каталог содержит объект Pyatak Taksi с категорией Taxi stand и Plus Code. Не приравнивать к действующему междугороднему пятаку до проверки направлений и GPS."
+    },
+    {
+      "lead_id": "LEAD-TAS-BUKHARA-PYATAK-TRANSFER",
+      "name": "Бухарский пятак в Самарканде (пересадочный ориентир)",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "public_travel_reported_taxi_pickup_area",
+      "routes": [
+        "Бухара",
+        "Хива — через пересадку в Бухаре"
+      ],
+      "location_text": "Точка не уточнена; публичная публикация советует искать такси до Хивы на «Бухарском пятаке» в Самарканде",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_community_route_reference",
+      "status": "lead_only_exact_location_and_current_use_unconfirmed",
+      "source_urls": [
+        "https://t.me/s/potrebitel_uz?before=9458",
+        "https://t.me/s/potrebitel_uz?before=11139"
+      ],
+      "evidence_note": "Публичный Telegram-пост упоминает «Бухарский пятак» в Самарканде как место поиска такси в направлении Хивы/Бухары. Название может обозначать район/точку посадки; GPS не указан, необходимо уточнить физическое место."
+    },
+    {
+      "lead_id": "LEAD-TAS-ANDIJON-PITAK-RINGROAD",
+      "name": "Andijon pitak / Андижанский пятак",
+      "city": "Ташкент",
+      "region": "Ташкентская область",
+      "type": "informal_intercity_taxi_stand",
+      "routes": [
+        "Андижан",
+        "Ферганская долина"
+      ],
+      "location_text": "Tashkent Ring Automobile Road; Waze/Maps listing Plus Code 68VQ+CXH",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "mapped_taxi_stand_name",
+      "status": "candidate_needs_coordinate_and_active_site_verification",
+      "source_urls": [
+        "https://www.google.com/maps/search/?api=1&query=Andijon+pitak+68VQ%2BCXH",
+        "https://kun.uz/ru/29382568"
+      ],
+      "evidence_note": "Картографическая бизнес-запись прямо названа Andijon pitak и размещена у кольцевой дороги Ташкента. Kun.uz отдельно подтверждает маршрутные пятаки Андижана и Куйлюка, но не подтверждает точное совпадение этого пина с действующей посадкой."
+    },
+    {
+      "lead_id": "LEAD-TAS-JIZZAKH-STAND-ALMAZAR",
+      "name": "Toshkent–Jizzax taksi / Ташкент—Джизак такси",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "intercity_taxi_stand",
+      "routes": [
+        "Джизак",
+        "Заамин"
+      ],
+      "location_text": "Район метро Алмазар; Plus Code 754W+943",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "mapped_taxi_stand_name_and_route",
+      "status": "candidate_needs_exact_pin_confirmation",
+      "source_urls": [
+        "https://www.google.com/maps/search/?api=1&query=Toshkent+Jizzax+taksi+754W%2B943",
+        "https://www.google.com/maps/search/?api=1&query=Zomin+Jizzax+pitak+Tashkent"
+      ],
+      "evidence_note": "Картографическая запись с категорией taxi stand и отзывами о поездках в Джизак; Plus Code сохранён как опубликованный идентификатор, не преобразован в выдуманные координаты."
+    },
+    {
+      "lead_id": "LEAD-TAS-OYBEK-PITAK",
+      "name": "Oybek/Aybek border pitak / пятак на Ойбек",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "international_route_taxi_stand",
+      "routes": [
+        "Ойбек",
+        "Худжанд",
+        "Таджикистан"
+      ],
+      "location_text": "Ташкент; Plus Code 68QJ+CFH; точный вход/посадку уточнить",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "mapped_transport_listing",
+      "status": "candidate_needs_active_site_verification",
+      "source_urls": [
+        "https://www.google.com/maps/search/?api=1&query=Pyatak+Taksi+K+Granitse+S+Tadzhikistanom+Aybek+68QJ%2BCFH",
+        "https://caravanistan.com/uzbekistan/border-crossings/tajikistan/"
+      ],
+      "evidence_note": "Картографическая запись прямо описывает пятак к границе с Таджикистаном/Ойбеком. Точная действующая точка посадки и режим маршрута требуют отдельного подтверждения."
+    },
+    {
+      "lead_id": "LEAD-SAM-ULUGBEK-TASHKENT-PITAK",
+      "name": "Пятак у обсерватории Улугбека — Ташкент",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "intercity_taxi_stand",
+      "routes": [
+        "Ташкент",
+        "Бухара"
+      ],
+      "location_text": "Парковка у обсерватории Улугбека; источник различает верхнюю парковку как основную",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_public_route_description",
+      "status": "candidate_needs_coordinate_pin",
+      "source_urls": [
+        "https://samarkand-guide.com/services/transport"
+      ],
+      "evidence_note": "Публичный путеводитель явно описывает стоянку такси до Ташкента и Бухары у обсерватории, отмечает две зоны и указывает верхнюю парковку как основную. GPS-координаты источником не опубликованы."
+    },
+    {
+      "lead_id": "LEAD-SAM-KAFTARXONA-PITAK",
+      "name": "Kaftarxona / Кафтархона — пригородный пятак",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "suburban_and_border_route_taxi_stand",
+      "routes": [
+        "Ургут",
+        "Джартепа",
+        "Пенджикент"
+      ],
+      "location_text": "Автостанция Кафтархона, Самарканд; место для Damas и такси",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "explicit_public_transport_description",
+      "status": "candidate_needs_coordinate_pin_and_current_confirmation",
+      "source_urls": [
+        "https://samarkand-guide.com/services/transport",
+        "https://caravanistan.com/uzbekistan/samarkand/transport/"
+      ],
+      "evidence_note": "Публичный путеводитель называет Кафтархону местом отправления пригородных автобусов, Damas и такси, включая направление Джартепа у границы Таджикистана. Это смешанный транспортный узел, а не подтверждение отдельной выделенной стоянки."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-NUKUS-BATISTRANS",
+      "name": "Автовокзал BatisTrans — Нукус",
+      "city": "Нукус",
+      "region": "Республика Каракалпакстан",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Тахтакупыр"
+      ],
+      "location_text": "Nukus, BatisTrans bus station; official route tender lists the BatisTrans station–Takhtakupyr route. Exact taxi pickup area not established.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/204802"
+      ],
+      "evidence_note": "Официальный тендер Министерства транспорта перечисляет этот маршрутный узел/конечную остановку. Документ не подтверждает отдельный пятак такси и не даёт оснований придумывать координаты; требуется отдельная картографическая или местная проверка."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-NUKUS-ARKA-BATIS",
+      "name": "Автостанция «Нокис Арка Батис»",
+      "city": "Нукус",
+      "region": "Республика Каракалпакстан",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Оренек / Казаяклы"
+      ],
+      "location_text": "Nukus, Nokis Arka Batis station; official route tender lists a route toward Orenek (Kazayakly). Exact taxi stand not confirmed.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/204802"
+      ],
+      "evidence_note": "Официальный тендер Министерства транспорта перечисляет этот маршрутный узел/конечную остановку. Документ не подтверждает отдельный пятак такси и не даёт оснований придумывать координаты; требуется отдельная картографическая или местная проверка."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-TURTKUL-GULISTAN",
+      "name": "Турткуль—Гулистан МПЖ (маршрутный узел)",
+      "city": "Турткуль",
+      "region": "Республика Каракалпакстан",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Гулистан"
+      ],
+      "location_text": "Official tender lists the Turtkul–Gulistan route node. This is a route lead, not proof of a taxi rank.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/204802"
+      ],
+      "evidence_note": "Официальный тендер Министерства транспорта перечисляет этот маршрутный узел/конечную остановку. Документ не подтверждает отдельный пятак такси и не даёт оснований придумывать координаты; требуется отдельная картографическая или местная проверка."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-DENAU-SHURCHI",
+      "name": "Автостанция Денау — направление Шурчи",
+      "city": "Денау",
+      "region": "Сурхандарьинская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Шурчи"
+      ],
+      "location_text": "Official tender lists the Denau station–Shurchi station route. Verify whether shared taxis load at this station or a separate pitak.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/204802"
+      ],
+      "evidence_note": "Официальный тендер Министерства транспорта перечисляет этот маршрутный узел/конечную остановку. Документ не подтверждает отдельный пятак такси и не даёт оснований придумывать координаты; требуется отдельная картографическая или местная проверка."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-URGENCH-CLOTHING-MARKET",
+      "name": "Автостанция у вещевого рынка Ургенча",
+      "city": "Ургенч",
+      "region": "Хорезмская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "пригородные направления"
+      ],
+      "location_text": "Official tender names Urgench clothing-market station as a route endpoint. It may help locate local taxi stands; exact taxi pickup not confirmed.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/204802"
+      ],
+      "evidence_note": "Официальный тендер Министерства транспорта перечисляет этот маршрутный узел/конечную остановку. Документ не подтверждает отдельный пятак такси и не даёт оснований придумывать координаты; требуется отдельная картографическая или местная проверка."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-ROMITAN-SHOHNIGOR",
+      "name": "Ромитан—Шохнигор маршрутный узел",
+      "city": "Ромитан",
+      "region": "Бухарская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Шохнигор"
+      ],
+      "location_text": "Official tender lists the Romitan–Shohnigor route. Exact taxi stand and coordinates remain unverified.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/204802"
+      ],
+      "evidence_note": "Официальный тендер Министерства транспорта перечисляет этот маршрутный узел/конечную остановку. Документ не подтверждает отдельный пятак такси и не даёт оснований придумывать координаты; требуется отдельная картографическая или местная проверка."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-KARSHI-YAKKABAG",
+      "name": "Автостанция Карши — направление Яккабаг",
+      "city": "Карши",
+      "region": "Кашкадарьинская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Яккабаг"
+      ],
+      "location_text": "Official tender lists the Karshi station–Yakkabog route. Check whether intercity shared taxis use this station or a nearby separate stand.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/204802"
+      ],
+      "evidence_note": "Официальный тендер Министерства транспорта перечисляет этот маршрутный узел/конечную остановку. Документ не подтверждает отдельный пятак такси и не даёт оснований придумывать координаты; требуется отдельная картографическая или местная проверка."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-SIYOB-TUGAY",
+      "name": "Автостанция Сиёб — направление Тугай",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Тугай"
+      ],
+      "location_text": "Official tender lists Siyob station–Tugay. Route endpoint is evidence of transport activity, not evidence of a dedicated taxi rank.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/204802"
+      ],
+      "evidence_note": "Официальный тендер Министерства транспорта перечисляет этот маршрутный узел/конечную остановку. Документ не подтверждает отдельный пятак такси и не даёт оснований придумывать координаты; требуется отдельная картографическая или местная проверка."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-ULUGBEK-URGUT",
+      "name": "Обсерватория Улугбека — автостанция Ургут",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Ургут"
+      ],
+      "location_text": "Official tender lists a route from Ulughbek Observatory to Urgut station. Check for a separate shared-taxi departure point around the observatory.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/204802"
+      ],
+      "evidence_note": "Официальный тендер Министерства транспорта перечисляет этот маршрутный узел/конечную остановку. Документ не подтверждает отдельный пятак такси и не даёт оснований придумывать координаты; требуется отдельная картографическая или местная проверка."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-NOKUS-TAKHTAKUPYR",
+      "name": "Автостанция Нукус — направление Бостан",
+      "city": "Нукус",
+      "region": "Республика Каракалпакстан",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Бостан"
+      ],
+      "location_text": "Official tender lists a route between Bostan station and Nukus BatisTrans. Exact taxi stand not confirmed.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/204802"
+      ],
+      "evidence_note": "Официальный тендер Министерства транспорта перечисляет этот маршрутный узел/конечную остановку. Документ не подтверждает отдельный пятак такси и не даёт оснований придумывать координаты; требуется отдельная картографическая или местная проверка."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-KUNGRAD-AKSHOLAK",
+      "name": "Автостанция Кунград — направление Акшолак",
+      "city": "Кунград",
+      "region": "Республика Каракалпакстан",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Акшолак"
+      ],
+      "location_text": "Официальный тендер указывает маршрут от автостанции Кунград до Акшолака; отдельный пятак такси не подтверждён.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/199907"
+      ],
+      "evidence_note": "Добавлено как исследовательский маршрутный узел по официальной публикации Министерства транспорта. Это не подтверждённый пятак такси; GPS-координаты намеренно не указаны. Требуется отдельная проверка по картам, местным публикациям или на месте."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-NUKUS-AKMAN-GIT",
+      "name": "Автостанция Нукус Жийдели Байсин — Акмангит",
+      "city": "Нукус",
+      "region": "Республика Каракалпакстан",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Акмангит"
+      ],
+      "location_text": "Официальный документ указывает маршрут от АВ Нукус Жийдели Байсин до Акмангита; не является подтверждением такси-стоянки.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/199907"
+      ],
+      "evidence_note": "Добавлено как исследовательский маршрутный узел по официальной публикации Министерства транспорта. Это не подтверждённый пятак такси; GPS-координаты намеренно не указаны. Требуется отдельная проверка по картам, местным публикациям или на месте."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-GAGARIN-KYZYLKUM",
+      "name": "Автостанция Гагарин — Кызылкум",
+      "city": "Гагарин",
+      "region": "Джизакская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Кызылкум"
+      ],
+      "location_text": "Маршрутный узел указан в официальном тендере; конкретная площадка посадки такси неизвестна.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/199907"
+      ],
+      "evidence_note": "Добавлено как исследовательский маршрутный узел по официальной публикации Министерства транспорта. Это не подтверждённый пятак такси; GPS-координаты намеренно не указаны. Требуется отдельная проверка по картам, местным публикациям или на месте."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-AVLIYO-GALLAARAL",
+      "name": "Авлийо — Галляарал",
+      "city": "Галляарал",
+      "region": "Джизакская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Авлийо"
+      ],
+      "location_text": "Официальный маршрутный документ указывает связь с Галляаралом; пятак и координаты не подтверждены.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/199907"
+      ],
+      "evidence_note": "Добавлено как исследовательский маршрутный узел по официальной публикации Министерства транспорта. Это не подтверждённый пятак такси; GPS-координаты намеренно не указаны. Требуется отдельная проверка по картам, местным публикациям или на месте."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-GUZAR-TOSHGʻUZOR",
+      "name": "Автостанция Гузар — Тошгузар",
+      "city": "Гузар",
+      "region": "Кашкадарьинская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Тошгузар"
+      ],
+      "location_text": "Маршрут из официального тендера; не подтверждает наличие отдельной стоянки междугороднего такси.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/199907"
+      ],
+      "evidence_note": "Добавлено как исследовательский маршрутный узел по официальной публикации Министерства транспорта. Это не подтверждённый пятак такси; GPS-координаты намеренно не указаны. Требуется отдельная проверка по картам, местным публикациям или на месте."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-SHAHRISABZ-URTAQORGON",
+      "name": "Автостанция Шахрисабз — Уртақўрғон",
+      "city": "Шахрисабз",
+      "region": "Кашкадарьинская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Уртақўрғон"
+      ],
+      "location_text": "Официальный маршрутный документ; место посадки такси требует отдельной проверки.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/199907"
+      ],
+      "evidence_note": "Добавлено как исследовательский маршрутный узел по официальной публикации Министерства транспорта. Это не подтверждённый пятак такси; GPS-координаты намеренно не указаны. Требуется отдельная проверка по картам, местным публикациям или на месте."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-SHAHRISABZ-CHUKUN",
+      "name": "Автостанция Шахрисабз — Чукун",
+      "city": "Шахрисабз",
+      "region": "Кашкадарьинская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Чукун"
+      ],
+      "location_text": "Официальный маршрутный документ; такси-пятак не подтверждён.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/199907"
+      ],
+      "evidence_note": "Добавлено как исследовательский маршрутный узел по официальной публикации Министерства транспорта. Это не подтверждённый пятак такси; GPS-координаты намеренно не указаны. Требуется отдельная проверка по картам, местным публикациям или на месте."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-SIYOB-SOCHAK",
+      "name": "Автостанция Сиёб — Сочак",
+      "city": "Самарканд",
+      "region": "Самаркандская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Сочак"
+      ],
+      "location_text": "Официальный тендер указывает автостанцию Сиёб как конечный узел маршрута; отдельная стоянка такси не подтверждена.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/198272"
+      ],
+      "evidence_note": "Добавлено как исследовательский маршрутный узел по официальной публикации Министерства транспорта. Это не подтверждённый пятак такси; GPS-координаты намеренно не указаны. Требуется отдельная проверка по картам, местным публикациям или на месте."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-RISHTAN-DEHQONABAD",
+      "name": "Риштан — Дехканабад",
+      "city": "Риштан",
+      "region": "Ферганская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Дехканабад"
+      ],
+      "location_text": "Маршрут упомянут в официальном транспортном тендере; точка посадки такси неизвестна.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/198272"
+      ],
+      "evidence_note": "Добавлено как исследовательский маршрутный узел по официальной публикации Министерства транспорта. Это не подтверждённый пятак такси; GPS-координаты намеренно не указаны. Требуется отдельная проверка по картам, местным публикациям или на месте."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-SOH-GAZNOV",
+      "name": "Сох — Газнов",
+      "city": "Сох",
+      "region": "Ферганская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Газнов"
+      ],
+      "location_text": "Маршрутный узел из официального документа; отдельный пятак и координаты не подтверждены.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/198272"
+      ],
+      "evidence_note": "Добавлено как исследовательский маршрутный узел по официальной публикации Министерства транспорта. Это не подтверждённый пятак такси; GPS-координаты намеренно не указаны. Требуется отдельная проверка по картам, местным публикациям или на месте."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-KORAMON-URGENCH",
+      "name": "Корамон — дехканский рынок Ургенча",
+      "city": "Ургенч",
+      "region": "Хорезмская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Корамон",
+        "Ургенч"
+      ],
+      "location_text": "Официальный маршрут связывает Корамон и дехканский рынок Ургенча; место отправления именно такси требует проверки.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/198272"
+      ],
+      "evidence_note": "Добавлено как исследовательский маршрутный узел по официальной публикации Министерства транспорта. Это не подтверждённый пятак такси; GPS-координаты намеренно не указаны. Требуется отдельная проверка по картам, местным публикациям или на месте."
+    },
+    {
+      "lead_id": "LEAD-OFFICIAL-TERMEZ-BAISUN",
+      "name": "Северная автостанция Термеза — Байсун",
+      "city": "Термез",
+      "region": "Сурхандарьинская область",
+      "type": "official_intercity_route_node",
+      "routes": [
+        "Байсун"
+      ],
+      "location_text": "Официальный документ указывает отправление маршрута со стороны Северной автостанции Термеза; не доказывает отдельный пятак такси.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "official_route_document",
+      "status": "official_route_node_taxi_pickup_unconfirmed",
+      "source_urls": [
+        "https://gov.uz/ru/mintrans/contest/view/175864"
+      ],
+      "evidence_note": "Добавлено как исследовательский маршрутный узел по официальной публикации Министерства транспорта. Это не подтверждённый пятак такси; GPS-координаты намеренно не указаны. Требуется отдельная проверка по картам, местным публикациям или на месте."
+    },
+    {
+      "lead_id": "LEAD-TAS-NAMANGAN-PYATAK-MAP",
+      "name": "Namangan Pyatak / Наманганский пятак",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "public_map_taxi_stand_candidate",
+      "routes": [
+        "Наманган",
+        "Ферганская долина"
+      ],
+      "location_text": "Публичная карточка карт указывает Plus Code 68RP+C9J. Это поисковый адрес; координаты не извлекались и не подставлялись.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_map_business_listing",
+      "status": "taxi_stand_candidate_map_pin_needs_verification",
+      "source_urls": [
+        "https://www.google.com/maps/search/?api=1&query=Namangan+Pyatak+68RP%2BC9J+Tashkent"
+      ],
+      "evidence_note": "Публичный бизнес-результат карт обозначает Namangan Pyatak как транспортную точку. Нужна проверка точного места посадки и актуальности."
+    },
+    {
+      "lead_id": "LEAD-TAS-INTERCITY-TAXI-754R",
+      "name": "Intercity Taxi / междугородняя стоянка",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "public_map_taxi_stand_candidate",
+      "routes": [
+        "Междугородние направления"
+      ],
+      "location_text": "Публичная карточка карт указывает Plus Code 754R+PXH. Это поисковый адрес; координаты не извлекались и не подставлялись.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_map_business_listing",
+      "status": "taxi_stand_candidate_map_pin_needs_verification",
+      "source_urls": [
+        "https://www.google.com/maps/search/?api=1&query=Intercity+Taxi+754R%2BPXH+Tashkent"
+      ],
+      "evidence_note": "Публичная карточка карт относит объект к taxi stand; маршруты и точная посадочная зона требуют подтверждения."
+    },
+    {
+      "lead_id": "LEAD-TAS-VODIY-PITAK-KOKAND-MAP",
+      "name": "Vodiy Pitak Kukon Qo‘qon",
+      "city": "Ташкент",
+      "region": "Ташкент",
+      "type": "public_map_taxi_stand_candidate",
+      "routes": [
+        "Коканд",
+        "Ферганская долина"
+      ],
+      "location_text": "Публичная карточка карт указывает Plus Code 68VR+H2H. Это поисковый адрес; координаты не извлекались и не подставлялись.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_map_business_listing",
+      "status": "taxi_stand_candidate_map_pin_needs_verification",
+      "source_urls": [
+        "https://www.google.com/maps/search/?api=1&query=Vodiy+Pitak+Kukon+Qo%27qon+68VR%2BH2H+Tashkent"
+      ],
+      "evidence_note": "Публичная карточка карт классифицирует объект как taxicab stand; адрес по Plus Code, отдельные GPS-координаты не выдумывались."
+    },
+    {
+      "lead_id": "LEAD-TG-TERMIZ-TASHKENT-SAM",
+      "name": "Termiz–Toshkent–Samarqand taxi group",
+      "city": "Термез / Ташкент / Самарканд",
+      "region": "Сурхандарьинская область / межрегионально",
+      "type": "public_telegram_route_evidence",
+      "routes": [
+        "Термез—Ташкент",
+        "Термез—Самарканд"
+      ],
+      "location_text": "Физический адрес пятака в открытом источнике не указан; это публичный маршрутный источник для последующего поиска точки посадки.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_telegram_group_directory",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/termiz_toshkent_samarqand",
+        "https://chatcrawler.link/ru/c/t/transport?lang=uz"
+      ],
+      "evidence_note": "Публичный каталог описывает группу как объявления о перевозке пассажиров между этими городами. Не использовать как GPS-точку или подтверждённую стоянку такси."
+    },
+    {
+      "lead_id": "LEAD-TG-GUZOR-TASHKENT",
+      "name": "G‘uzor–Toshkent taxi group",
+      "city": "Гузар / Ташкент",
+      "region": "Кашкадарьинская область / межрегионально",
+      "type": "public_telegram_route_evidence",
+      "routes": [
+        "Гузар—Ташкент"
+      ],
+      "location_text": "Физический адрес пятака в открытом источнике не указан; это публичный маршрутный источник для последующего поиска точки посадки.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_telegram_group_directory",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/guzor_taksi_toshkent",
+        "https://chatcrawler.link/ru/c/t/transport?lang=uz"
+      ],
+      "evidence_note": "Публичный каталог описывает группу как межгородские поездки и доставку посылок; физический пятак не указан. Не использовать как GPS-точку или подтверждённую стоянку такси."
+    },
+    {
+      "lead_id": "LEAD-TG-SURKHANDARYO-TERMIZ-DENOV",
+      "name": "Toshkent–Surxondaryo–Termiz taxi group",
+      "city": "Термез / Денау / Ташкент",
+      "region": "Сурхандарьинская область / межрегионально",
+      "type": "public_telegram_route_evidence",
+      "routes": [
+        "Ташкент—Термез",
+        "Ташкент—Денау",
+        "Ангор"
+      ],
+      "location_text": "Физический адрес пятака в открытом источнике не указан; это публичный маршрутный источник для последующего поиска точки посадки.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_telegram_group_directory",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/samarqand_Denov",
+        "https://chatcrawler.link/ru/c/t/transport?lang=uz"
+      ],
+      "evidence_note": "Публичный каталог указывает междугородние поездки; место посадки нужно искать отдельно. Не использовать как GPS-точку или подтверждённую стоянку такси."
+    },
+    {
+      "lead_id": "LEAD-TG-RISHTON-TASHKENT",
+      "name": "Rishton–Toshkent taxi channel",
+      "city": "Риштан / Ташкент",
+      "region": "Ферганская область / межрегионально",
+      "type": "public_telegram_route_evidence",
+      "routes": [
+        "Риштан—Ташкент"
+      ],
+      "location_text": "Физический адрес пятака в открытом источнике не указан; это публичный маршрутный источник для последующего поиска точки посадки.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_telegram_group_directory",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/Rishton_toshkent_taksik",
+        "https://chatcrawler.link/ru/c/t/transport?lang=uz"
+      ],
+      "evidence_note": "Публичный канал публикует предложения поездок; не является доказательством конкретной стоянки. Не использовать как GPS-точку или подтверждённую стоянку такси."
+    },
+    {
+      "lead_id": "LEAD-TG-SAYXUN-GULISTON",
+      "name": "Sayxun–Guliston taxi group",
+      "city": "Сайхунобод / Гулистан",
+      "region": "Сырдарьинская область",
+      "type": "public_telegram_route_evidence",
+      "routes": [
+        "Сайхунобод—Гулистан",
+        "Гулистан—Ташкент"
+      ],
+      "location_text": "Физический адрес пятака в открытом источнике не указан; это публичный маршрутный источник для последующего поиска точки посадки.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_telegram_group_directory",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/SAYXUN_GULISTON",
+        "https://chatcrawler.link/ru/c/t/transport?lang=uz"
+      ],
+      "evidence_note": "Публичный каталог указывает региональные и ташкентские поездки; адрес пятака не найден. Не использовать как GPS-точку или подтверждённую стоянку такси."
+    },
+    {
+      "lead_id": "LEAD-TG-JIZZAKH-TASHKENT",
+      "name": "Jizzax–Toshkent taxi channel",
+      "city": "Джизак / Ташкент",
+      "region": "Джизакская область / межрегионально",
+      "type": "public_telegram_route_evidence",
+      "routes": [
+        "Джизак—Ташкент"
+      ],
+      "location_text": "Физический адрес пятака в открытом источнике не указан; это публичный маршрутный источник для последующего поиска точки посадки.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_telegram_group_directory",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/taksi_reklamas",
+        "https://chatcrawler.link/ru/c/t/transport?lang=uz"
+      ],
+      "evidence_note": "Публичный канал с объявлениями о поездках; требуется выявить точку фактической посадки. Не использовать как GPS-точку или подтверждённую стоянку такси."
+    },
+    {
+      "lead_id": "LEAD-TG-ANGREN-TASHKENT",
+      "name": "Angren–Toshkent taxi group",
+      "city": "Ангрен / Ташкент",
+      "region": "Ташкентская область",
+      "type": "public_telegram_route_evidence",
+      "routes": [
+        "Ангрен—Ташкент"
+      ],
+      "location_text": "Физический адрес пятака в открытом источнике не указан; это публичный маршрутный источник для последующего поиска точки посадки.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_telegram_group_directory",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/TOSHKENTANGREN",
+        "https://chatcrawler.link/ru/c/t/transport?lang=uz"
+      ],
+      "evidence_note": "Публичная группа поездок и попутчиков; физическая стоянка не подтверждена. Не использовать как GPS-точку или подтверждённую стоянку такси."
+    },
+    {
+      "lead_id": "LEAD-TG-URGANCH-NUKUS",
+      "name": "Urganch–Nukus–Xorazm taxi group",
+      "city": "Ургенч / Нукус",
+      "region": "Хорезм / Каракалпакстан",
+      "type": "public_telegram_route_evidence",
+      "routes": [
+        "Ургенч—Нукус",
+        "Хорезм—Нукус"
+      ],
+      "location_text": "Физический адрес пятака в открытом источнике не указан; это публичный маршрутный источник для последующего поиска точки посадки.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_telegram_group_directory",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/urgench_nukus5",
+        "https://chatcrawler.link/ru/c/t/transport?lang=uz"
+      ],
+      "evidence_note": "Публичная группа межгородских поездок; использовать как направление для поиска мест посадки. Не использовать как GPS-точку или подтверждённую стоянку такси."
+    },
+    {
+      "lead_id": "LEAD-TG-QUQON-TASHKENT",
+      "name": "Qo‘qon–Toshkent taxi group",
+      "city": "Коканд / Ташкент",
+      "region": "Ферганская область / межрегионально",
+      "type": "public_telegram_route_evidence",
+      "routes": [
+        "Коканд—Ташкент",
+        "Бухара—Ташкент"
+      ],
+      "location_text": "Физический адрес пятака в открытом источнике не указан; это публичный маршрутный источник для последующего поиска точки посадки.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_telegram_group_directory",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/Toshkent_buxoro7",
+        "https://chatcrawler.link/ru/c/t/transport?lang=uz"
+      ],
+      "evidence_note": "Публичный каталог описывает перевозки между городами; физический пятак не подтверждён. Не использовать как GPS-точку или подтверждённую стоянку такси."
+    },
+    {
+      "lead_id": "LEAD-TG-ANDIJON-TASHKENT-01",
+      "name": "Andijon Toshkent Taksi",
+      "city": null,
+      "region": "Андижанская область / Ташкент",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Андижан",
+        "Ташкент"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/tashkent_andijon1",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram page names interregional passenger transport service; this is route-community evidence, not a pickup-location confirmation."
+    },
+    {
+      "lead_id": "LEAD-TG-FARGONA-YAYPAN-01",
+      "name": "Fargona Yaypan Taxi",
+      "city": null,
+      "region": "Ферганская область",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Фергана",
+        "Яйпан",
+        "Ташкент"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/fargona_yaypan_taxi_7",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram page for Fargona–Yaypan taxi services; exact physical pickup point is not stated."
+    },
+    {
+      "lead_id": "LEAD-TG-QUVA-TASHKENT-FARGONA-01",
+      "name": "Quva Toshkent Fargona Taxi",
+      "city": null,
+      "region": "Ферганская область / Ташкент",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Кува",
+        "Фергана",
+        "Ташкент"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/Quva_Toshkent_Fargona_Taxil",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram listing identifies the route group; exact physical pickup point is not stated."
+    },
+    {
+      "lead_id": "LEAD-TG-SAMARKAND-TASHKENT-TAXI-01",
+      "name": "Samarqand Taxi / Такси Тошкент Самарканд",
+      "city": null,
+      "region": "Самаркандская область / Ташкент",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Самарканд",
+        "Ташкент"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/SAMARQAND_TAXI_2",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram listing identifies intercity taxi community; exact physical pickup point is not stated."
+    },
+    {
+      "lead_id": "LEAD-TG-NUKUS-KUNGRAD-01",
+      "name": "Nukus–Kungrad Taxi",
+      "city": null,
+      "region": "Республика Каракалпакстан",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Нукус",
+        "Кунград"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/Nukus_kungrad2",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram listing for Nukus–Kungrad taxi route; exact physical pickup point is not stated."
+    },
+    {
+      "lead_id": "LEAD-TG-TERMEZ-TASHKENT-01",
+      "name": "Termez Toshkent Taksi",
+      "city": null,
+      "region": "Сурхандарьинская область / Ташкент",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Термез",
+        "Ташкент"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/termez_toshkent_taksi_taxi",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram contact for Termiz–Tashkent taxi service; exact physical pickup point is not stated."
+    },
+    {
+      "lead_id": "LEAD-TG-NAMANGAN-TASHKENT-PETAK-01",
+      "name": "Namangan Toshkent Petak",
+      "city": null,
+      "region": "Наманганская область / Ташкент",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Наманган",
+        "Ташкент"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/namangan_toshkent_taxi_1250",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram page explicitly uses PETAK in its title and describes Namangan–Tashkent taxi service. It is strong lead for locating the stand but does not itself provide an exact pickup coordinate."
+    },
+    {
+      "lead_id": "LEAD-TG-SURKHANDARYO-M39-01",
+      "name": "Toshkent–Surxondaryo Taxi M39",
+      "city": null,
+      "region": "Сурхандарьинская область / Ташкент",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Ташкент",
+        "Термез",
+        "Шерабад",
+        "Ангор",
+        "Денау",
+        "Кумкурган",
+        "Шурчи",
+        "Жаркурган",
+        "Кызырык"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/surxondaryo_toshkent_taxi24",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram page describes taxi and parcel service along the Tashkent–Surxondaryo M39 route and names regional destinations; pickup point remains unconfirmed."
+    },
+    {
+      "lead_id": "LEAD-TG-URGANCH-TASHKENT-01",
+      "name": "Urganch Tashkent Taksi",
+      "city": null,
+      "region": "Хорезмская область / Ташкент",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Ургенч",
+        "Ташкент"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/Toshkent_Xorazim_urganch_taxi",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram page for Urganch–Tashkent taxi service; exact physical pickup point is not stated."
+    },
+    {
+      "lead_id": "LEAD-TG-GUZOR-TASHKENT-01",
+      "name": "G‘uzor–Toshkent taxi",
+      "city": null,
+      "region": "Кашкадарьинская область / Ташкент",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Гузар",
+        "Ташкент"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/guzor_toshkent_taksi",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram page describes ordering taxi between Tashkent and G‘uzor; exact physical pickup point is not stated."
+    },
+    {
+      "lead_id": "LEAD-TG-KITOB-SHAHRISABZ-YAKKABOG-01",
+      "name": "Kitob–Shahrisabz–Yakkabog‘–Toshkent taxi",
+      "city": null,
+      "region": "Кашкадарьинская область / Ташкент",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Китаб",
+        "Шахрисабз",
+        "Яккабаг",
+        "Ташкент"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/kitob_shahrisabz_toshkent",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram page names the three regional areas and Tashkent taxi service; exact physical pickup point is not stated."
+    },
+    {
+      "lead_id": "LEAD-TG-MANGIT-NUKUS-01",
+      "name": "Mangit–Nukus taxi / poputi",
+      "city": null,
+      "region": "Республика Каракалпакстан",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Мангит",
+        "Нукус"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/poputimoshin",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram page explicitly describes Mangit–Nukus shared rides; exact physical pickup point is not stated."
+    },
+    {
+      "lead_id": "LEAD-TG-TASHKENT-NUKUS-01",
+      "name": "Tashkent–Nukus Taxi 24/7",
+      "city": null,
+      "region": "Республика Каракалпакстан / Ташкент",
+      "type": "public_intercity_taxi_route_community",
+      "routes": [
+        "Нукус",
+        "Ташкент",
+        "аэропорт",
+        "Черняевка"
+      ],
+      "location_text": "Точка посадки не установлена; публичная Telegram-группа/канал для проверки маршрута.",
+      "latitude": null,
+      "longitude": null,
+      "evidence_level": "public_route_community_listing",
+      "status": "route_community_pickup_location_unconfirmed",
+      "source_urls": [
+        "https://t.me/tashkentnokis",
+        "https://tgstat.org/list/2095/transport/"
+      ],
+      "evidence_note": "Public Telegram page advertises daily taxi service from Nukus to Tashkent, airport and Chernyaevka; exact pickup point is not stated."
+    }
+  ]
+}

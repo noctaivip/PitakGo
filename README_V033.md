@@ -1,0 +1,1 @@
+PitakGo v0.33 — Supabase authentication fixes. Email confirmation is required by Supabase. Resend and password reset added. No database or native Android changes. Existing android folder must be preserved.

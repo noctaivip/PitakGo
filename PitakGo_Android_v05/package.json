@@ -1,0 +1,1 @@
+{"name":"pitakgo","version":"0.3.0","private":true,"type":"module","scripts":{"sync":"cap sync android","android":"cap open android"},"dependencies":{"@capacitor/core":"^7.0.0","@capacitor/android":"^7.0.0","@capacitor/cli":"^7.0.0"}}

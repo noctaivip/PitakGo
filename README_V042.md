@@ -1,0 +1,1 @@
+v0.42: anniversary campaign notice in welcome and empty trip results. September 2027, three new Chevrolet Cobalt, with clear disclaimer that rules and eligibility are forthcoming; no fabricated entry, winner selection, or guarantee of participation. No backend modifications.

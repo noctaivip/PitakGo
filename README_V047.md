@@ -1,0 +1,1 @@
+v0.47: Direct full-screen route picker binding on the actual five visible driver buttons. Removed hidden-input proxy which failed on Android. Added selected pitak to select options if missing. No backend migrations.

@@ -1,0 +1,1 @@
+v0.43: compact account header; logout moved to Profile. Isolated local-only demo ride with seat selection, example price, chat and confirmation. No Supabase writes. Demo appears when route has no real trips.
